@@ -1,0 +1,20 @@
+.footer {
+    width: 100%;
+    background-color: rgb(15, 13, 13);
+}
+
+.footer .up p {
+    text-align: center;
+    color: white;
+    padding-top: 15px;
+}
+
+.footer .down {
+    margin-left: 680px;
+    padding-bottom: 10px;
+}
+
+.footer .down img {
+    width: 20px;
+    margin: 5px;
+}

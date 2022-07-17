@@ -1,0 +1,282 @@
+body {
+    background-color: #ffff;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 42px;
+    color: #000000;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 26px;
+    color: #000000;
+}
+
+h3 {
+    font-weight: 500;
+    font-size: 22px;
+    color: #000000;
+}
+
+h4 {
+    font-weight: 500;
+    font-size: 15px;
+    color: #000000;
+}
+
+p {
+    font-weight: 300;
+    font-size: 15px;
+    color: #000000;
+}
+
+.carosel {
+    margin-top: 20px;
+    margin-left: 10px;
+    height: 250px;
+    border-radius: 20px;
+
+}
+
+.carosel-1 {
+    background-color: #E2D4F0;
+    margin-top: 20px;
+    margin-left: 10px;
+    height: 250px;
+    border-radius: 20px;
+}
+
+.carosel-2 {
+    background-color: #B6D4A8;
+    margin-top: 20px;
+    margin-left: 10px;
+    height: 250px;
+    border-radius: 20px;
+}
+
+.content-left {
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.content-left h2 {
+    font-weight: bold;
+    width: 300px;
+    color: rgb(0, 0, 0);
+}
+
+.content-left p {
+    margin-top: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.ptext {
+    font-size: 30px;
+    color: rgb(211, 11, 11);
+}
+
+.btn-shadow {
+    box-shadow: 0px 8px 15px rgba(24, 66, 145, 0.3);
+}
+
+.btn-block {
+    width: 100%;
+}
+
+.btn-primary {
+    background: #6a0b81;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #671886;
+    border-color: #610877;
+}
+
+.btn-secondary {
+    background: #E2D4F0;
+    box-shadow: 0px 8px 15px rgba(3, 3, 3, 0.3);
+    /* border-color: #610877; */
+    border-color: transparent;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+}
+
+.btn-secondary:hover {
+    background: #710891;
+    color: #ffff;
+}
+
+.navbar {
+    background: #ffffff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+}
+
+.navbar-light input {
+    background: #eeeeee;
+    border-radius: 16px;
+    width: 300px;
+}
+
+.brand-text-icon {
+    padding-top: 40px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #7e0796;
+    text-decoration: none;
+}
+
+.brand-text-icon :hover {
+    color: #050353;
+}
+
+.text-icon {
+    color: #000102;
+}
+
+section {
+    margin-top: 40px;
+}
+
+.section-hero {
+    display: flex;
+}
+
+.section-hero p {
+    font-size: 18px;
+}
+
+.section-product .active {
+    background: #7126B5;
+    border-color: transparent;
+    box-shadow: 0px 8px 15px rgba(7, 7, 7, 0.3);
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #ffff;
+}
+
+.section-product .card-product {
+    width: 250px;
+    background: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px 2px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.card-product {
+    background: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px 2px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.section-product .card-product h4,
+p {
+    margin-bottom: 5px;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+.section-product .card-product2 h4,
+p {
+    margin-bottom: 5px;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+footer {
+    border-top: 1px solid #e9ecef;
+    padding-top: 50px;
+}
+
+footer .brand-tagline {
+    margin-top: 8px;
+    color: #adb5bd;
+    font-weight: 300;
+}
+
+footer .list-group-item {
+    padding: 0.3125rem 0;
+    border: 0;
+}
+
+footer .list-group-item a,
+span {
+    color: #adb5bd;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+footer .list-group-item a:hover {
+    color: #272c31;
+}
+
+footer .copyrights {
+    margin: 50px 0;
+    font-weight: 300;
+    color: #6c7074;
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.search {
+    width: 444px !important;
+    height: 48px;
+    padding: 14px 64px 14px 24px !important;
+    background-color: #EEEEEE !important;
+}
+
+.radius-primary {
+    border-radius: 16px !important;
+}
+
+.radius-secondary {
+    border-radius: 12px !important;
+}
+
+.brand {
+    width: 100px;
+    height: 34px;
+}
+
+.foter {
+    margin-left: 23px;
+}
+
+.bg-color-primary {
+    background-color: #4B1979 !important;
+}
+
+.box-shadow {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+}
+
+.fot {
+    margin-top: 15px;
+}
+
+.img-fluid {
+    margin-right: 8px;
+    padding-bottom: 3px;
+    text-align: center;
+}
